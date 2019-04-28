@@ -1,0 +1,242 @@
+/* video maker*/
+.video-ground{
+	top: 100%;
+	left: 100%;
+	width: 100%;
+	height: 500px;
+}
+
+/* cacher le débordement */
+
+body{
+	overflow-x: hidden;	
+}
+
+/* les titres de la nav bar*/
+
+#prop, #serv, #porf, #contacter, #local{
+	font-family: 'Monoton', cursive;
+	font-size: 15px;
+	color: white;
+}
+
+/* l'icon de la nav bar*/
+
+#img1{
+	font-size: 120px;
+	color: #110c5a;
+}
+
+/* Footer */
+
+footer{
+	margin-top: 10%;
+	background-color: rgb(39, 100, 133);
+	border: 2px solid rgb(4, 6, 85);
+}
+
+/* Footer title*/
+
+#loca{
+	color: white;
+	font-family: 'Monoton', cursive;
+	
+}
+
+/* Team */
+
+#T1, #T2, #T3{
+	font-family: 'Crimson Text', serif;
+}
+
+/* footer of team */
+.team-member{
+	background-color: rgb(1, 24, 73);
+	padding: 0;
+	cursor: grab;
+}
+
+/* Service paragraphes*/
+
+.Titre3{
+	color: rgb(219, 217, 217);
+	font-family: 'Crimson Text', serif;
+}
+
+/* service Title*/
+.service-header{
+	color: rgb(212, 211, 211);
+	font-size: 50px;
+	font-family: 'Crimson Text', serif;
+}
+
+/*background service*/
+.service{
+	background-color:  rgb(25, 6, 80);
+	margin-bottom: 1%;
+}
+
+
+/*
+	Classes
+*/
+
+.navbar-header{
+	padding-left: 2%;
+}
+
+.nav li{
+	padding-top: 4%;
+}
+
+
+/* Information Team*/
+
+.information{
+	 border: 3px solid rgb(16, 17, 107);
+}
+
+.information h3{
+	color: rgb(222, 235, 191)!important;
+	font-family: 'Crimson Text', serif;
+}
+
+
+.service-image{
+	padding: 5%;
+}
+
+
+/* 
+	IDs
+*/
+#propos{
+	padding-top: 5%;
+	margin-bottom: 7%;
+}
+#propos h3, #team-description h3{
+	color: rgb(255, 255, 255);
+}
+
+#team, #team-description{
+	padding-left: 2%;
+}
+
+#team h3{
+	color: rgb(237, 235, 255);
+	padding-bottom: 5%;
+}
+
+#services{
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+#portfolio div{
+	padding:0;
+	margin:0;
+}
+
+#portfolio-item h3{
+	color: white;
+	font-style: bold;
+}
+
+#portfolio-item p{
+	color: grey;
+}
+#Equipes, #Dammak, #pdammak{
+	padding:0;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../res/logo.png);
+  }
+   
+  .nav ul {
+	list-style: none;
+	background-image: url(../res/logo.png);
+	text-align: center;
+	padding: 0;
+	margin: 0;
+  }
+ 
+   
+  .nav a {
+	text-decoration: none;
+	color: rgb(243, 189, 189);
+	display: block;
+	transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+	background-color: #180f91;
+  }
+   
+  .nav a.active {
+	background-color: #fff;
+	color: #444;
+	cursor: default;
+  }
+   
+  @media screen and (min-width: 600px) {
+	.nav li {
+	  width: 120px;
+	  border-bottom: none;
+	  height: 50px;
+	  line-height: 50px;
+	  font-size: 1.4em;
+	}
+   
+	/* Option 1 - Display Inline */
+	.nav li {
+	  display: inline-block;
+	  margin-right: -4px;
+	}
+   
+
+  }
+ #portf{
+	 font-size: 50px;
+	 color: rgb(255, 255, 255);
+	 font-family: 'Monoton', cursive;
+	background: rgb(25, 6, 80);
+	height: 100px;
+	width: 500px;
+	padding-top: 20px;
+ }
+ #service{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	font-family: 'Monoton', cursive;
+   background: rgb(25, 6, 80);
+   height: 100px;
+   width: 500px;
+   padding-top: 20px;
+ }
+ #team-text{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	font-family: 'Monoton', cursive;
+   background: rgb(25, 6, 80);
+   height: 100px;
+   width: 500px;
+   padding-top: 20px; 
+ }
+ #about-us{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	font-family: 'Monoton', cursive;
+   background: rgb(25, 6, 80);
+   height: 100px;
+   width: 500px;
+   padding-top: 20px; 
+ }
+
+ #ret{
+	 cursor: pointer;
+ }
